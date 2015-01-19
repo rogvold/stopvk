@@ -1,0 +1,84 @@
+.textBlock{
+    font-size: 32px;
+}
+
+.cardNumber.answered a{
+    background-color: #1582dc;
+    color: white;
+}
+
+ul.taggle_list{
+    margin-left: 0px !important;
+    padding-left: 0px;
+    /*padding: 10px;*/
+    /*border: 1px dashed lightblue;*/
+}
+
+.materialItem.selected section, .userItem.selected section{
+    background-color: lightgreen;
+}
+
+.materialItem, .userItem{
+    cursor: pointer;
+}
+
+.materialItem section, .userItem section{
+    margin-bottom: 0px !important;
+}
+
+a:hover, .header li a:active {
+     /*background: darkblue !important;*/
+}
+
+#materialsList{
+    list-style: none;
+}
+
+#widgetMaterialsList, #widgetUsersList{
+    list-style: none;
+}
+
+#tagsWidgetBlock .materialTag{
+    background-color: lightblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border: darkblue;
+    font-weight: bold;
+}
+
+#widgetMaterialsList, #widgetUsersList{
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#questionaryList, #answersList{
+    margin-left: 0px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+#questionaryList li, #answersList li{
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#questionaryList li:hover, #answersList li:hover{
+    /*opacity: 0.7;*/
+    background-color: lightgoldenrodyellow;
+}
+
+li.question.selected, li.answer.selected{
+    background-color: lightcoral;
+}
+
+#questionAnswers{
+    list-style: none;
+    padding-left: 0px;
+}
